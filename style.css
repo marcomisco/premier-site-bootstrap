@@ -1,0 +1,152 @@
+body {
+    background-image: url("back.jpg");
+}
+
+.nav {
+    padding: 12px;
+    background-color: #0a121b;
+    color: white;
+}
+
+#plan {
+    width: auto;
+    height: auto;
+}
+
+.titre1 {
+    font-size: 48px;
+    text-shadow: -1px -1px #9df, 1px 1px #49d, -3px 0 4px #000;
+    font-family: "Segoe print", Arial, Helvetica, sans-serif;
+    color: #6bf;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.descr {
+    text-align: center;
+}
+
+.row {
+    padding: 5px;
+    margin: 5px;
+}
+
+.col-sm {
+    background-color: aqua;
+}
+
+.panel-body {
+    background-color: #423737cc;
+    float: left;
+}
+
+.panel-body2 {
+    background-color: #423737cc;
+    float: left;
+}
+
+.livre {
+    height: 140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pita {
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pizza {
+    height: 200px;
+}
+
+.jumbotron {
+    margin: 14px;
+    background-color: #423737cc;
+}
+
+p {
+    color: aliceblue;
+    padding: 8px;
+}
+
+#resto {
+    background-color: #423737cc;
+}
+
+.col-8 {
+    background-color: #423737cc;
+    padding: 18px;
+}
+
+.body2 {
+    background-image: url(back2.jpg)
+}
+
+h3,
+h5 {
+    color: whitesmoke;
+}
+
+h2 {
+    color: steelblue;
+}
+
+.form-group {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.list-group-item {
+    background-color: #c5c688e6;
+}
+
+.photos {
+    height: 200px;
+    margin: 4px 4px 4px 4px;
+    padding: 14px;
+}
+
+@media only screen and (max-width:600px) {
+    .logo,
+    lolo {
+        height: 60px;
+        width: 10Opx;
+    }
+}
+
+@media only screen and (min-width:600px)and(max-width:768px) {
+    .logo,
+    lolo {
+        height: 90px;
+        width: 15Opx;
+    }
+}
+
+@media(min-width:768px)and(max-width:992px) {
+    .logo,
+    lolo {
+        height: 120px;
+        width: 20Opx;
+    }
+}
+
+@media(min-width:992px)and(max-width:1200px) {
+    .logo,
+    lolo {
+        height: 150px;
+        width: 27Opx;
+    }
+}
+
+@media(min-width:1200px) {
+    .logo,
+    lolo {
+        height: 300px;
+        width: 400px;
+    }
+}
